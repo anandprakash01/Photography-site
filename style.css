@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #f4a7ba; */
+}
+body{
+    background-color: #f4a7ba;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+        /* Navigation bar */
+.nav{
+    background-color: black;
+}
+.nav ul{
+    overflow: auto;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    margin:16px 6px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #f4a7ba;
+    padding: 5px;
+}
+.nav li a:hover{
+    background-color: #f4a7ba;
+    color: black;
+    border-radius: 10px;
+}
+.nav .right-nav{
+    float: right;
+    margin: 11px 15px;
+}
+.right-nav input{
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.right-nav a{
+    display: inline-block;
+    height: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(98, 192, 4);
+}
+.right-nav a:hover{
+    color: rgb(207, 204, 0);
+}
+.my-name{
+    text-align: center;
+    margin: 11px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(71,71,71);
+}
+
+        /* body */
+.quote{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 75px 20px;
+    text-align:center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 10px;
+}
+.box-size{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    background-size: cover;
+}
+.box1{
+    background-image: url(./img/img-wedding1.jpg);
+}
+.box2{
+    background-image: url(./img/img-portrait1.jpg);
+}
+.box3{
+    background-image: url(./img/img-tamil-shutter.jpg);
+}
+.box-text{
+    text-align: center;
+    margin-top: 400px;
+}
+.box-text a{
+    color: rgb(255, 255, 255, 0.6);
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.box-text:hover{
+    background-color: rgb(131, 131, 131);
+}
+
+.img{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    color: #4b0013;
+    text-align: center;
+}
+.img-discription{
+    text-align: center;
+    color: #6a1e31;
+}
+.img:hover{
+    padding: 5px;
+    cursor: pointer;
+}
+.discription-1{
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    color: #6a1e31;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+.container{
+    display: grid;
+    grid-template-areas: 'container-grid';
+}
+.container-grid{grid-area: container-grid;}
+.container-grid{
+    min-height: 100px;
+}
+.container-book{
+    margin: 50px 0px;
+}
+.box-book{
+    height: 700px;
+    background-image: url('./img/img-book2.jpg');
+    background-size: cover;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 200px 50px;
+    text-align:center;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: #f4a7ba;
+}
+
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-flex{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.box-flex li{
+    text-align: left;
+    list-style: none;
+    padding: 3px 20px;
+    margin: 0px 35px
+}
+.box-flex a{
+    text-decoration: none;
+    color: #4b0013;
+    padding: 5px 10px;
+}
+.box-flex a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.logo{
+    width: 15px;
+    height: 15px;
+}
+.copyright{
+    height: 30px;
+    text-align: center;
+}
+
