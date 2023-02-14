@@ -78,13 +78,13 @@ body{
     background-size: cover;
 }
 .box1{
-    background-image: url(./img/img-wedding1.jpg);
+    background-image: url('./assets/img/img-wedding1.jpg');
 }
 .box2{
-    background-image: url(./img/img-portrait1.jpg);
+    background-image: url('./assets/img/img-portrait1.jpg');
 }
 .box3{
-    background-image: url(./img/img-tamil-shutter.jpg);
+    background-image: url('./assets/img/img-tamil-shutter.jpg');
 }
 .box-text{
     text-align: center;
@@ -136,7 +136,7 @@ body{
 }
 .box-book{
     height: 700px;
-    background-image: url('./img/img-book2.jpg');
+    background-image: url('./assets/img/img-book2.jpg');
     background-size: cover;
     font-size: 40px;
     font-weight: bold;
