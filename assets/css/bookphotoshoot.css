@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f4a7ba;
+}
+.header{
+    min-height: 50px;
+    background-image: url('../img/bg-nav.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content:space-between;
+    color: #f4a7ba;
+}
+.header span{
+    display: inline-block;
+    padding: 12px 6px;
+    text-align: center;
+}
+.nav-left span a{
+    color: #f4a7ba;
+    font-size: 19px;
+    padding: 4px;
+    
+}
+.nav-left span a:hover{
+    color: #007c5d;
+}
+.nav-right input{
+    width: 120px;
+    height: 27px;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f4a7ba;
+}
+.nav-right img{
+    width: 20px;
+    /* height: 50px; */
+}
+a{text-decoration: none;}
+
+
+
+
+
+
+.footer {
+    height: 300px;
+}
+.book-info{
+    height: 400px;
+}
+.book-bg {
+    width: auto;
+    height: 1000px;
+    background-image: url('../img/book-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: brightness(30%); */
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+.form{
+    height: 800px;
+}
+.book-offer{
+    color: white;
+    text-align: center;
+    margin-top: 46px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+h1{
+    color:#73e673;
+}
+h2{
+    font-size: 38px;
+}
+form {
+    color: white;
+    max-width: 510px;
+    margin: 70px 0px;
+    padding: 20px;
+    position: absolute;
+    right: 60px;
+}
+
+.form-group {
+    max-width: 600px;
+    height: 55px;
+    font-size: 19px;
+    padding: 12px;
+}
+label{
+    display: inline-block;
+    width: 170px;
+    height: 30px;
+    margin-right: 25px;
+}
+.input-type {
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #f4a7ba;
+    text-align: center;
+}
+select{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f4a7ba;
+}
+.btn{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #006200;
+    font-weight: 600;
+    background-color: lightgreen;
+    border: none;
+
+}
+.btn:hover{
+    background-color: #006200;
+    color:white;
+    cursor: pointer;
+}
+.form-group-btn{
+    text-align: center;
+}
+.text2{
+    color: #f4a7ba;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+}
