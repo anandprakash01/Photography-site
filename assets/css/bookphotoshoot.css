@@ -94,7 +94,6 @@ form {
     position: absolute;
     right: 60px;
 }
-
 .form-group {
     max-width: 600px;
     height: 55px;
@@ -114,6 +113,9 @@ label{
     background-color: #f4a7ba;
     text-align: center;
     margin: auto;
+}
+.radio{
+    display: inline-block;
 }
 select{
     width: 160px;
