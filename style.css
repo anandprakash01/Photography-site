@@ -7,7 +7,9 @@ body{
     background-color: #f4a7ba;
     font-family: 'Ubuntu', sans-serif;
 }
-
+.nav-left .active{
+    color: #007c5d;
+}
 .header{
     min-height: 50px;
     background-image: url('./assets/img/bg-nav.jpg');
