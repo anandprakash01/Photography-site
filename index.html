@@ -5,113 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hr Photography</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <title>YO Photographer</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="nav-left">
-            <span><a href="#" class="active">Home</a></span>
-            <span><a href="#">Our work</a></span>
-            <span><a href="#">Projects</a></span>
-            <span><a href="#">Contact us</a></span>
-            <span><a href="#">About</a></span>
+    <nav id="navbar">
+        <div id="logo">
+            <!-- <img src="" alt=""> -->
+            <h1>Logo</h1>
         </div>
-        
-        <div class="nav-right">
-            <span><input type="text" name="search" placeholder="Search here"><a href="#"><img src="./assets/img/search-icon.png"></a></span>
-            <span> <button type="submit"><a href="./assets/html/bookphotoshoot.html">Register</a></button></span>
-        </div>
-    </div>
-    <div class="quote">
-        " It's not enough to just own a camera. Everyone owns a camera. To be a photographer, you must understand,
-        appreciate, and harness the power you hold! - Mark Denman "
-    </div>
-    <div class="box">
-        <div class="box-size box1">
-            <div class="box-text"><a href="#">WEDDINGS</a></div>
-        </div>
-        <div class="box-size box2">
-            <div class="box-text"><a href="#">PORTRAITS</a></div>
-        </div>
-        <div class="box-size box3">
-            <div class="box-text"><a href="#">LIFESTYLE</a></div>
-        </div>
-
-    </div>
-    <div class="discription-1">
-        <h2>Hello, I am Anand Prakash. A Portrait, WildLife, Wedding & Lifestyle Photographer.</h2>
-        Hello, This is a demo website of photography, I am Anand Prakash. My passion is to document
-        the fleeting moments of love to create timeless, beautiful images as memories. I love capturing weddings,
-        natural, potrait, animal and also peoples. My style is minimal, natural and understated. Looking forward to
-        capturing your
-        special day for eternity!
-    </div>
-    <div class="container">
-        <div class="container-grid">
-            <div class="box">
-                <div>
-                    <div><img class="img" src="./assets/img/img-deepak.jpg"></div>
-                    <h3 class="img-discription">Diwali Lights</h3>
-                </div>
-                <div>
-                    <div><img class="img" src="./assets/img/img-holi.jpg"></div>
-                    <h3 class="img-discription">Holi</h3>
-                </div>
-                <div>
-                    <div><img class="img" src="./assets/img/img-street1.jpg"></div>
-                    <h3 class="img-discription">Indian Street</h3>
-                </div>
-                <div>
-                    <div><img class="img" src="./assets/img/img-sunset.jpg"></div>
-                    <h3 class="img-discription">The Sunset</h3>
-                </div>
-                <div>
-                    <div><img class="img" src="./assets/img/img-bride.jpg"></div>
-                    <h3 class="img-discription">Indian Bride</h3>
-                </div>
-                <div>
-                    <div><img class="img" src="./assets/img/img-highway.jpg"></div>
-                    <h3 class="img-discription">Highway Root</h3>
-                </div>
-            </div>
-        </div>
+        <ul>
+            <li><a href="#" id="active">Home</a></li>
+            <li><a href="#">Our work</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <button class="btn">Book Now</button>
+        </ul>
+    </nav>
+    <section id="quote-banner">
+        <div id="quote-banner-text">“ It's not enough to just own a camera. Everyone owns a camera. To be a
+            photographer, you must
+            understand, appreciate, and harness the power you hold! - Mark Denman ”</div>
+    </section>
+    <div id="img-banner">
+        <div id="img1" class="banner-img"><a class="banner-text" href="#">WEDDINGS</a></div>
+        <div id="img2" class="banner-img"><a class="banner-text" href="#">PORTRAITS</a></div>
+        <div id="img3" class="banner-img"><a class="banner-text" href="#">LIFESTYLE</a></div>
     </div>
 
-    <div class="quote">" Photographers don't take pictures. They create images. - Mark Denman "</div>
-    <div class="container-book">
+    <div id="about-me">
+        <img src="./assets/img/my-img.jpg" alt="Anand Prakash">
+        <div>Hello, I am Anand Prakash. A Portrait, WildLife, Wedding & Lifestyle Photographer.
+            Hello, This is a demo website of photography, I am Anand Prakash. My passion is to document the fleeting
+            moments of love to create timeless, beautiful images as memories. I love capturing weddings, natural,
+            potrait, animal and also peoples. My style is minimal, natural and understated. Looking forward to capturing
+            your special day for eternity!</div>
+    </div>
+    <section id="variety-photos">
+        <div class="photo-container">
+            <img class="photo" src="./assets/img/img-deepak.jpg">
+            <div class="img-discription">Diwali Lights</div>
+        </div>
+        <div class="photo-container">
+            <img src="./assets/img/img-holi.jpg">
+            <div>Holi</div>
+        </div>
+        <div class="photo-container">
+            <img src="./assets/img/img-street1.jpg">
+            <div>Indian Street</div>
+        </div>
+        <div class="photo-container">
+            <img src="./assets/img/img-sunset.jpg">
+            <div>The Sunset</div>
+        </div>
+        <div class="photo-container">
+            <img src="./assets/img/img-bride.jpg">
+            <div>Indian Bride</div>
+        </div>
+        <div class="photo-container">
+            <img src="./assets/img/img-highway.jpg">
+            <div>Highway Root</div>
+        </div>
+        <div class="photo-container">
+            <img src="./assets/img/taj.jpg">
+            <div>The Taj</div>
+        </div>
+        <div class="photo-container">
+            <img src="./assets/img/happy face.jpg">
+            <div>Happiness</div>
+        </div>
+    </section>
+    <div class="quote">“ Photographers don't take pictures. They create images. - Mark Denman ”</div>
 
-        <div class="box-book">Preserve your big day and create stunning portraits with friends and family members
-            <div><button class="btn"><a href="./assets/html/bookphotoshoot.html">Book a Photo Shoot</a></button></div>
+    <section class="book-photoshoot">
+        <div>
+            <div class="book-text">Preserve your big day and create stunning portraits with friends and family members</div>
+            <button class="btn"><a href="./assets/html/bookphotoshoot.html">Book a Photo Shoot</a></button>
         </div>
-    </div>
-    <div class="container">
-        <div class="container-grid">
-            <div class="display-flex">
-                <div class="box-flex">
-                    <ul>
-                        <li></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Support</a></li>
-                    </ul>
-                </div>
-                <div class="box-flex">
-                    <ul>
-                        <h5>Follow us on</h5>
-                        <li><a href="#"><img class="logo" src="./assets/img/logo-twitter.png"></a></li>
-                        <li><a href="#"><img class="logo" src="./assets/img/logo-insta.png"></a></li>
-                        <li><a href="#"><img class="logo" src="./assets/img/logo-github.png"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">copyright © 2023 anand prakash</div>
+    </section>
 </body>
 
 </html>

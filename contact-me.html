@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/contact-me.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-left">
+            <span><a href="../../index.html">Home</a></span>
+            <span><a href="#">Our work</a></span>
+            <span><a href="#">Projects</a></span>
+            <span><a href="#">Contact us</a></span>
+            <span><a href="#">About</a></span>
+        </div>
+        
+        <div class="nav-right">
+            <span><input type="text" name="search" placeholder="Search here"><a href="#"><img src="../img/search-icon.png"></a></span>
+        </div>
+    </div>
+    <div class="book-info">
+        <div>Make your memories unforgatable with me</div>
+    </div>
+
+    <div class="book-bg">
+        <div class="form">
+            <form action="anand.php">
+                <div class="book-offer">
+                    <h1>50% OFF</h1>
+                    <p>For new customers</p>
+                    <h2>Register Now</h2>
+                </div>
+                <div class="form-group">
+                    <label for="fname">First Name : </label>
+                    <input type="text" class="input-type" id="fname" name="firstName" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name : </label>
+                    <input type="text" class="input-type" id="lname" name="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="male">Gender : </label>
+                    <div class="radio"><input type="radio" name="gender" id="male" required> Male
+                        <input type="radio" name="gender" id="female" required> Female
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email : </label>
+                    <input type="emai" class="input-type" id="email" name="email" placeholder="Email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="addressInfo">Address : </label>
+                    <input type="text" class="input-type" id="addressInfo" name="addressInfo" placeholder="Address"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="phototype">Photoshoot type : </label>
+                    <select id="phototype" name="photoshoot-type">
+                        <option value="default" selected>---Select---</option>
+                        <option value="Audition">Acting headshots</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Portraits">Portraits</option>
+                        <option value="Birthdays">Birthdays</option>
+                        <option value="Family Function">Family Gathering</option>
+                    </select>
+                </div>
+                <div class="form-group form-group-btn">
+                    <button type="submit" class="btn">Register</button>
+                </div>
+            </form>
+        </div>
+        <div class="text2">
+            We are making photographs to understand what our lives mean to us.
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
