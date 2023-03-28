@@ -65,7 +65,7 @@
     flex-direction: column;
 }
 #about-me img {
-    max-width: 240px;
+    max-width: 200px;
     height: auto;
 }
 #about-me div {
