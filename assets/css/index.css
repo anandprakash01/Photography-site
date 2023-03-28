@@ -139,6 +139,8 @@ body {
     right: 15px;
 }
 .dropdown-content {
+    font-family: 'Noto Serif', serif;
+    font-weight: 900;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +151,10 @@ body {
     min-width: 160px;
     border-radius: 10px;
 }
-
+.fa-bars:hover {
+    color: red;
+    cursor: pointer;
+}
 .dropdown:hover .dropdown-content {
     display: flex;
 }
