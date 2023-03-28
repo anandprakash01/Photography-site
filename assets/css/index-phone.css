@@ -28,6 +28,7 @@
     font-size: 2.3rem;
     top: 340px;
 }
+/* ---------------Gallery------------ */
 .photo-container {
     max-width: 160px;
     max-height: 150px;
@@ -36,7 +37,10 @@
 .photo-container img {
     width: 170px;
     height: 120px;
-    padding: 5px;
+    padding: 8px;
+}
+.photo-container img:hover{
+    padding: 1px;
 }
 .photo-container div {
     font-size: 1.1rem;
