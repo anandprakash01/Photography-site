@@ -1,10 +1,233 @@
+.btn {
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* --------------------- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    text-decoration: none;
 }
+
 body {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #f4a7ba;
+    /* background-color: silver; */
+}
+
+/* Navigation bar */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+    z-index: 5;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    height: 50px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin-left: 15px;
+}
+
+#navbar ul button {
+    background-color: transparent;
+    border: 2px solid red;
+    margin: 0px 15px;
+    transition: border .5s;
+}
+
+#navbar ul button a {
+    position: relative;
+    display: block;
+    padding: 4px;
+    color: #fff;
+    transition: color .5s;
+}
+
+#navbar ul button a:hover {
+    color: lime;
+}
+
+#navbar ul button:hover {
+    border: 2px solid green;
+}
+
+#navbar ul li a {
+    display: block;
+    position: relative;
+    padding: 3px 6px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#active::after {
+    transform: scaleX(1) !important;
+}
+
+#navbar ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    background-color: red;
+    border-radius: 5px;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    /* transition: .5s; */
+    transition: transform .5s;
+    transform-origin: right;
+}
+
+#navbar ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    display: none;
+}
+.dropdown{
+    position: absolute;
+    right: 15px;
+}
+
+.fa-bars:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    /* display: block; */
+}
+
+/* ----------------dropdown-navigaytion---------------- */
+
+.dropdown-content {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+.dropdown button {
+    background-color: transparent;
+    border: 2px solid red;
+    margin: 5px 0px;
+    transition: border .5s;
+}
+
+.dropdown-content a {
+    position: relative;
+    color: black;
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.dropdown-content button a {
+    top: -6px;
+    display: block;
+    padding: 4px;
+    color: #000000;
+    transition: color .5s;
+}
+
+.dropdown button a:hover {
+    color: lime;
+}
+
+.dropdown button:hover {
+    border: 2px solid green;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    background-color: red;
+    border-radius: 5px;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    /* transition: .5s; */
+    transition: transform .5s;
+    transform-origin: right;
+}
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+
+/* -------------Main banner------------------ */
+
+#quote-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 680px;
+}
+
+#quote-banner::before {
+    content: "";
+    width: 100%;
+    height: 680px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../img/home-banner.jpg");
+    /* background-blend-mode: multiply; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#quote-banner-text {
+    font-family: 'Alkatra', cursive;
+    max-width: 1000px;
+    font-size: 2.1rem;
+    color: #fff;
+    text-align: center;
+    opacity: 0.7;
 }

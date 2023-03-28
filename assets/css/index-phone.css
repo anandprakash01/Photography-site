@@ -1,0 +1,74 @@
+.h1-primary{
+    font-size: 1.6rem;
+}
+.hide-nav{
+    display: none;
+}
+.fa-bars {
+    display: inline-block;
+}
+#quote-banner-text{
+    font-size: 2rem;
+}
+
+/* ---------------main banner----------------- */
+#quote-banner-text {
+    font-size: 1.2rem;
+    margin: 1.1rem;
+}
+
+/* ---------------------moments------------ */
+
+.banner-img {
+    max-width: 306px;
+    max-height: 407px;
+    margin: 8px;
+}
+.banner-img a {
+    font-size: 2.3rem;
+    top: 340px;
+}
+.photo-container {
+    max-width: 160px;
+    max-height: 150px;
+    margin: 5px;
+}
+.photo-container img {
+    width: 170px;
+    height: 120px;
+    padding: 5px;
+}
+.photo-container div {
+    font-size: 1.1rem;
+}
+/* ------------quote---------- */
+
+.quote div {
+    font-size: 1.5rem;
+    animation-duration: 10s;
+}
+@keyframes left-to-right {
+    0% {
+        transform: translateX(97%);
+    }
+    100% {
+        transform: translateX(-97%);
+    }
+}
+
+/* ----------------about me----------------- */
+#about-me{
+    flex-direction: column;
+}
+#about-me img {
+    max-width: 240px;
+    height: auto;
+}
+#about-me div {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 10px;
+}
+#about-me div h3{
+    font-size: 1.3rem;
+}

@@ -8,13 +8,10 @@
     <title>Moments Photography</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Delicious+Handrawn&family=Noto+Serif:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap"
-        rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Delicious+Handrawn&family=Noto+Serif:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="./assets/css/index-phone.css">
 </head>
 
 <body>
@@ -24,13 +21,23 @@
             <h1></h1>
         </div>
         <ul>
-            <li><a href="#" id="active">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Our work</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-            <button class="btn"><a href="#">Book Now</a></button>
+            <li class="hide-nav"><a href="#" id="active">Home</a></li>
+            <li class="hide-nav"><a href="#">Gallery</a></li>
+            <li class="hide-nav"><a href="#">Our work</a></li>
+            <li class="hide-nav"><a href="#">Contact</a></li>
+            <li class="hide-nav"><a href="#">About</a></li>
+            <button class="btn hide-nav"><a href="#">Book Now</a></button>
         </ul>
+        <div class="dropdown">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        <div class="dropdown-content">
+                <a class="nav-link" id="active" href="#">Home</a>
+                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#">Our work</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">About</a>
+                <button class="btn"><a href="#">Book Now</a></button>
+        </div>
     </nav>
     <section id="quote-banner">
         <div id="quote-banner-text">“ It's not enough to just own a camera. Everyone owns a camera. To be a
@@ -113,7 +120,7 @@
     <section id="about-me">
         <img src="./assets/img/my-img.jpg" alt="Anand Prakash">
         <div>
-            <h3>Hello, I am Anand Prakash.Portrait, WildLife, Wedding & Lifestyle Photographer.</h3>
+            <h3>Hello, I am Anand Prakash. Portrait, WildLife, Wedding & Lifestyle Photographer.</h3>
             Hello, This is a demo website of photography. My passion is to document the fleeting
             moments of love to create timeless, beautiful images as memories. I love capturing weddings, natural,
             potrait, animal and also peoples. My style is minimal, natural and understated. Looking forward to capturing
