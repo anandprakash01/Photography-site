@@ -450,6 +450,7 @@ a:hover::after {
 }
 
 .quote div {
+    display: inline-block;
     font-family: 'Alkatra', cursive;
     text-align: center;
     font-size: 2rem;

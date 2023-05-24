@@ -1,2 +1,1 @@
-# Photography-site
-Using HTML &amp; CSS
+This is a Site where You can book a Photoshoot
